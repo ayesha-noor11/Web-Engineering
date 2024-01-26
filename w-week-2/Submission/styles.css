@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+  }
+  
+  header {
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1px;
+    margin: 2px;
+    padding: 30px;
+    border: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .intro {
+    padding: 120px;
+    border: 100px;
+    background-color: white;
+    margin: 200px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+
+  }
+  .skills {
+    padding: 100px;
+    border: 200px;
+    background-color: white;
+    margin: 200px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+  }
+  
+  .projects {
+    padding: 100px;
+    border: 200px;
+    background-color: white;
+    margin: 200px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: 300px;
+    padding: 100px;
+    border: 200px;
+    background-color: white;
+    margin: 200px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 200px;
+    height: auto;
+    size: 20;
+    
+    margin: 0 auto;
+    padding-bottom: 1px;
+  }
+  
+  .contact {
+    padding: 20px;
+    background-color: white;
+    padding: 100px;
+    border: 200px;
+    background-color: white;
+    margin: 200px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    margin-bottom: 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .contact textarea {
+    height: 100px;
+  }
+  
+
+  
+  /* You can add additional styles here for specific elements, e.g., hover effects, buttons, etc. */
+  

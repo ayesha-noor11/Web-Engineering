@@ -1,0 +1,42 @@
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    width: 220px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    text-align: center; /* Center content within each product box */
+  }
+  
+  .product img {
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
+  .product h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product .price {
+    font-size: 10;
+    
+    color: orange; 
+    margin-bottom: 15px;
+    t
+
+  }
+  
