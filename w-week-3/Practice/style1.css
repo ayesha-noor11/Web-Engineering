@@ -1,0 +1,80 @@
+.myButton{
+    padding: 10px;    
+
+    }
+.myButton:hover{
+        padding: 10px;
+        background-color: beige;
+        cursor: pointer;
+        
+    
+}
+.myLinks{
+    a:hover{
+        color: red;
+    }
+    
+    a:link{
+        color: purple
+    }
+    
+    a:active{
+        color: green;
+    }
+    
+    a:visited{
+        color: blue
+    }
+
+    a:first-child{color:orange}  
+    
+
+
+}
+.myLinks>a:first-child{color: black;}
+
+.parentBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.childBox{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    left: 100px;
+    top: 240px; 
+}
+
+.myIcon{
+    width: 100px;
+    height: 100px;
+    fill: antiquewhite;
+}
+
+.fixed_area{
+    width: 100px;
+    height: 100px;
+    overflow-x: scroll;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    display: inline;
+    
+}
+    
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+    
+

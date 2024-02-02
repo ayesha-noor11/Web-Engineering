@@ -1,0 +1,7 @@
+.container{
+width: 100px;
+height: 100px;}
+.container.circle{
+    height: auto;
+    width: auto;
+}
