@@ -1,0 +1,36 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 10px;
+    left: 160px;
+    top: 150px;
+    bottom: 150px;
+}
+
+.square{
+    display: block;
+    height: 250px;
+    width: 320px;
+    border: 2px solid green;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
