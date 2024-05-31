@@ -1,0 +1,20 @@
+.buttonArea
+{
+  display: flex; 
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 5px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e3e0e0;
+}
+
+.buttonArea button
+{
+    border-radius: 5px;
+    padding: 10px;
+}
+.buttonArea button:hover
+{
+  cursor: pointer;
+}
